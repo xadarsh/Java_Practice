@@ -14,6 +14,8 @@ class Person2 extends Person1
 	
 }
 
+//Here Person2 class is child class of Person1 class (Person1 is parent of Person2)
+
 public class Demo {
 
 	public static void main(String[] args) {
