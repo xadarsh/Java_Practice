@@ -1,12 +1,12 @@
 //Cyclic inheritance is not allowed
 //understand by below example
 
-class Person1 extends Person2
+class Person11 //extends Person22
 {
 	
 }
                                          //Here a cycle is formed and this is not allowed
-class Person2 extends Person1
+class Person22 extends Person11
 {
 	
 }
