@@ -30,9 +30,9 @@ public class Example1 {
 		Parent1 ref=ch1;//This is called as Loose Coupling and we can achieve polymorphism.
 		// or we can write is as
 		//Parent ref=new Child1();
-		ref.laugh();
+		ref.laugh();//Child1 is laughing at low voice...
 		ref=ch2;	//Loose Coupling.
-		ref.laugh();
+		ref.laugh();//Child2 is laughing at high voice...
 		
 		
 	}
