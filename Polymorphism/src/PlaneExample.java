@@ -57,7 +57,7 @@ class Airport
 	public void permit(Plane plane)//Here we store all child object reference in parent type reference variable
 	{								// and here [1:Many] works coz plane is used for all child reference otherwise we have to create different different
 		plane.takeoff();			//method for every child type variable to hold the reference
-		plane.fly();
+		plane.fly();				//and also this is know as Loose coupling
 		plane.landing();
 	}
 }
@@ -65,10 +65,10 @@ class Airport
 public class PlaneExample {
 
 	public static void main(String[] args) {
-		CargoPlane cp=new CargoPlane();
-		PassengerPlane pp=new PassengerPlane();
-		FighterPlane fp=new FighterPlane();
-		Airport a=new Airport();
+		CargoPlane cp=new CargoPlane();			//Tight coupling
+		PassengerPlane pp=new PassengerPlane();	//Tight coupling
+		FighterPlane fp=new FighterPlane();		//Tight coupling
+		Airport a=new Airport();				//Tight coupling
 		
 		a.permit(cp);
 		a.permit(pp);
