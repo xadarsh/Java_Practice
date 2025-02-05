@@ -11,7 +11,7 @@ class Parent2
 		System.out.println("Parents are working hard.");
 	}
 }
-class Child2 extends Parent2
+class Child22 extends Parent2
 {
 	void work()
 	{
@@ -26,11 +26,11 @@ public class Downcasting {
 
 	public static void main(String[] args) {
 			
-		Parent2 p=new Child2();
+		Parent2 p=new Child22();
 		p.work();// output-> Child didn't work hard.
 		//p.play();// it will give error coz you are tring to accesss a specialized method using parent type reference and this is not possible
 				 // for this we have to downcaste the parent type reference.
-		((Child2)p).play();// here we downcaste the parent type reference to child type to access the specialized method 
+		((Child22)p).play();// here we downcaste the parent type reference to child type to access the specialized method 
 						   //output-> Child is playing all the day.
 	}
 	
