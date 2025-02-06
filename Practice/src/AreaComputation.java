@@ -82,6 +82,8 @@ public class AreaComputation {
 		cal.calculate(r);
 		cal.calculate(sq);
 		cal.calculate(c);
+		
+		System.out.println("Done...");
 
 	}
 
