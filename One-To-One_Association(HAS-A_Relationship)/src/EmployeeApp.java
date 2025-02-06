@@ -6,7 +6,7 @@ public class EmployeeApp {
 		Employee emp=new Employee("Adarsh Maurya",101,"Prayagraj",account);
 		
 		emp.getDetails();
-		System.out.println("Done....");
+		System.out.println("Done...");
 	}
 
 }
