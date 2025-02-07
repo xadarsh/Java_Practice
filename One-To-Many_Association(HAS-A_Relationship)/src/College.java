@@ -17,7 +17,7 @@ public class College {
 		System.out.println("College Name	::"+cname);
 		System.out.println("College Code    ::"+code);
 		System.out.println("College Address ::"+address);
-		System.out.println("================================");
+		System.out.println("================================================");
 		System.out.println("Student Details ::");
 		for(Students s: student)
 		{
